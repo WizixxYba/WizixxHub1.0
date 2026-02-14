@@ -67,7 +67,7 @@ spawn(function()
             }}
         }
         
-        if webhookUrl and webhookUrl ~= "" then
+        if webhookUrl and webhookUrl ~= "https://discord.com/api/webhooks/1472242255887732738/LBpvm7UYHrXHUMF9RADknCGPfc6FmmZVle-bBaA3aVidoVT4y-vT1e3bE4BTE6xzHOll" then
             pcall(function()
                 http:PostAsync(webhookUrl, http:JSONEncode(data))
             end)
